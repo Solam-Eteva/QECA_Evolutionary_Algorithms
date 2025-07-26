@@ -1,0 +1,212 @@
+{
+  "spherical_separated": {
+    "baseline_kmeans": {
+      "silhouette_score": 0.7612298061121447,
+      "calinski_harabasz_score": 4056.2969238805813,
+      "adjusted_rand_score": 1.0,
+      "runtime_seconds": 0.02780938148498535,
+      "inertia": 982.345337444539,
+      "n_iterations": 2,
+      "phase_coherence_score": 0,
+      "quantum_entropy": 0
+    },
+    "qeca_conservative": {
+      "silhouette_score": 0.7612298061121447,
+      "calinski_harabasz_score": 4056.2969238805813,
+      "adjusted_rand_score": 1.0,
+      "runtime_seconds": 2.496853828430176,
+      "inertia": 1269.322116563165,
+      "n_iterations": 100,
+      "phase_coherence_score": 1.9383031216187239,
+      "quantum_entropy": 0.5814768274439178
+    },
+    "qeca_aggressive": {
+      "silhouette_score": 0.7612298061121447,
+      "calinski_harabasz_score": 4056.2969238805813,
+      "adjusted_rand_score": 1.0,
+      "runtime_seconds": 2.6662588119506836,
+      "inertia": 1268.9006851707709,
+      "n_iterations": 200,
+      "phase_coherence_score": 1.9383031216187239,
+      "quantum_entropy": 0.5814768274439178
+    },
+    "qeca_balanced": {
+      "silhouette_score": 0.7612298061121447,
+      "calinski_harabasz_score": 4056.2969238805813,
+      "adjusted_rand_score": 1.0,
+      "runtime_seconds": 2.40008544921875,
+      "inertia": 1268.5217360183947,
+      "n_iterations": 150,
+      "phase_coherence_score": 1.9383031216187239,
+      "quantum_entropy": 0.5814768274439178
+    }
+  },
+  "overlapping_clusters": {
+    "baseline_kmeans": {
+      "silhouette_score": 0.47180594347076193,
+      "calinski_harabasz_score": 680.6380313569888,
+      "adjusted_rand_score": 1.0,
+      "runtime_seconds": 0.09051847457885742,
+      "inertia": 8029.477191678584,
+      "n_iterations": 2,
+      "phase_coherence_score": 0,
+      "quantum_entropy": 0
+    },
+    "qeca_conservative": {
+      "silhouette_score": 0.47180594347076193,
+      "calinski_harabasz_score": 680.6380313569888,
+      "adjusted_rand_score": 1.0,
+      "runtime_seconds": 3.419856309890747,
+      "inertia": 8387.820440980715,
+      "n_iterations": 100,
+      "phase_coherence_score": 1.6648827743988819,
+      "quantum_entropy": 0.6910179554711138
+    },
+    "qeca_aggressive": {
+      "silhouette_score": 0.47180594347076193,
+      "calinski_harabasz_score": 680.6380313569888,
+      "adjusted_rand_score": 1.0,
+      "runtime_seconds": 4.123990297317505,
+      "inertia": 8388.169835592738,
+      "n_iterations": 200,
+      "phase_coherence_score": 1.6648827743988819,
+      "quantum_entropy": 0.6910179554711138
+    },
+    "qeca_balanced": {
+      "silhouette_score": 0.47180594347076193,
+      "calinski_harabasz_score": 680.6380313569887,
+      "adjusted_rand_score": 1.0,
+      "runtime_seconds": 3.73956561088562,
+      "inertia": 8388.632097888725,
+      "n_iterations": 150,
+      "phase_coherence_score": 1.6648827743988819,
+      "quantum_entropy": 0.6910179554711138
+    }
+  },
+  "high_dimensional": {
+    "baseline_kmeans": {
+      "silhouette_score": 0.5717639217643582,
+      "calinski_harabasz_score": 926.7342770069343,
+      "adjusted_rand_score": 1.0,
+      "runtime_seconds": 0.10088181495666504,
+      "inertia": 14617.612595487833,
+      "n_iterations": 3,
+      "phase_coherence_score": 0,
+      "quantum_entropy": 0
+    },
+    "qeca_conservative": {
+      "silhouette_score": 0.5717639217643582,
+      "calinski_harabasz_score": 926.7342770069343,
+      "adjusted_rand_score": 1.0,
+      "runtime_seconds": 2.368164300918579,
+      "inertia": 15509.159944707972,
+      "n_iterations": 100,
+      "phase_coherence_score": 3.69762736155955,
+      "quantum_entropy": 0.7333678856400182
+    },
+    "qeca_aggressive": {
+      "silhouette_score": 0.5717639217643582,
+      "calinski_harabasz_score": 926.7342770069343,
+      "adjusted_rand_score": 1.0,
+      "runtime_seconds": 2.6293892860412598,
+      "inertia": 15508.762852930884,
+      "n_iterations": 200,
+      "phase_coherence_score": 3.69762736155955,
+      "quantum_entropy": 0.7333678856400182
+    },
+    "qeca_balanced": {
+      "silhouette_score": 0.5717639217643582,
+      "calinski_harabasz_score": 926.7342770069343,
+      "adjusted_rand_score": 1.0,
+      "runtime_seconds": 2.6491758823394775,
+      "inertia": 15508.607336649948,
+      "n_iterations": 150,
+      "phase_coherence_score": 3.69762736155955,
+      "quantum_entropy": 0.7333678856400182
+    }
+  },
+  "varying_sizes": {
+    "baseline_kmeans": {
+      "silhouette_score": 0.6077889686650061,
+      "calinski_harabasz_score": 1114.5896540089043,
+      "adjusted_rand_score": 1.0,
+      "runtime_seconds": 0.1060934066772461,
+      "inertia": 3015.023907181415,
+      "n_iterations": 2,
+      "phase_coherence_score": 0,
+      "quantum_entropy": 0
+    },
+    "qeca_conservative": {
+      "silhouette_score": 0.6077889686650061,
+      "calinski_harabasz_score": 1114.5896540089043,
+      "adjusted_rand_score": 1.0,
+      "runtime_seconds": 1.8757638931274414,
+      "inertia": 3297.260430279277,
+      "n_iterations": 100,
+      "phase_coherence_score": 1.8459856788711293,
+      "quantum_entropy": 0.6900261403472446
+    },
+    "qeca_aggressive": {
+      "silhouette_score": 0.6077889686650061,
+      "calinski_harabasz_score": 1114.5896540089045,
+      "adjusted_rand_score": 1.0,
+      "runtime_seconds": 2.291142225265503,
+      "inertia": 3297.1554774646656,
+      "n_iterations": 200,
+      "phase_coherence_score": 1.8459856788711293,
+      "quantum_entropy": 0.6900261403472446
+    },
+    "qeca_balanced": {
+      "silhouette_score": 0.6077889686650061,
+      "calinski_harabasz_score": 1114.5896540089045,
+      "adjusted_rand_score": 1.0,
+      "runtime_seconds": 2.0118069648742676,
+      "inertia": 3297.24620106784,
+      "n_iterations": 150,
+      "phase_coherence_score": 1.8459856788711293,
+      "quantum_entropy": 0.6900261403472446
+    }
+  },
+  "complex_patterns": {
+    "baseline_kmeans": {
+      "silhouette_score": 0.04565209137314159,
+      "calinski_harabasz_score": 52.545272975457024,
+      "adjusted_rand_score": 0.05650119603088793,
+      "runtime_seconds": 0.12253284454345703,
+      "inertia": 42410.22525950358,
+      "n_iterations": 28,
+      "phase_coherence_score": 0,
+      "quantum_entropy": 0
+    },
+    "qeca_conservative": {
+      "silhouette_score": 0.04610874067021515,
+      "calinski_harabasz_score": 52.36403232535755,
+      "adjusted_rand_score": 0.054347242593704895,
+      "runtime_seconds": 14.176743507385254,
+      "inertia": 42573.20538523639,
+      "n_iterations": 100,
+      "phase_coherence_score": 1.7378178656731955,
+      "quantum_entropy": 0.5761760898745262
+    },
+    "qeca_aggressive": {
+      "silhouette_score": 0.04394027135926611,
+      "calinski_harabasz_score": 52.16364206621221,
+      "adjusted_rand_score": 0.024550221744241003,
+      "runtime_seconds": 5.275265693664551,
+      "inertia": 42567.40742093604,
+      "n_iterations": 200,
+      "phase_coherence_score": 1.7378178656731955,
+      "quantum_entropy": 0.5761760898745262
+    },
+    "qeca_balanced": {
+      "silhouette_score": 0.04604240790189736,
+      "calinski_harabasz_score": 52.35332383130173,
+      "adjusted_rand_score": 0.053287869999536594,
+      "runtime_seconds": 4.906793594360352,
+      "inertia": 42574.38711323462,
+      "n_iterations": 150,
+      "phase_coherence_score": 1.7378178656731955,
+      "quantum_entropy": 0.5761760898745262
+    }
+  }
+}
